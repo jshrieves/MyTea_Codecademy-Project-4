@@ -1,0 +1,21 @@
+body {
+  margin: 0 auto;
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  font-family: helvetica;
+  opacity: 0.9;
+}
+
+/*Navigation*/
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%
+  height: 69px;
+  border-bottom: 1px seashell solid;
+}
+nav span {
+  text-decoration: underline;
+  display: inline-block;
+}
