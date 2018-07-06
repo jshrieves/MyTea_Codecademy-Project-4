@@ -1,21 +1,76 @@
 body {
-  margin: 0 auto;
+  margin: 0;
   background-color: black;
+  align-content: center;
+  }
+
+h2, h4, span {
   color: seashell;
-  font-size: 22px;
-  font-family: helvetica;
+  font-family: "helvetica";
   opacity: 0.9;
+  text-align: center;
 }
+
 
 /*Navigation*/
 nav {
   display: flex;
   position: fixed;
-  width: 100%
   height: 69px;
+  width: 100%;
+  margin: 0;
   border-bottom: 1px seashell solid;
+  z-index: 1;
+  background-color: black;
+}
+nav img {
+  margin-left: 10px;
 }
 nav span {
   text-decoration: underline;
   display: inline-block;
+  margin-right: 10px;
 }
+
+/*Bammer*/
+
+.banner {
+  height: 700px;
+  width: 1200px;
+  margin: 0;
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  position: relative;
+  top: 60;
+  justify-content: center;
+  align-items: center;
+}
+.bannertext {
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  width: 1200px;
+}
+
+/* Monthly Tea Section */
+
+.monthlytea {
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+  }
+  .monthlyteaimages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .tea {
+    text-align: center;
+  }
+  .tea img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
