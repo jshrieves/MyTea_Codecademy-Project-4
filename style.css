@@ -1,10 +1,10 @@
 body {
-  margin: 0;
+  margin: 0px;
   background-color: black;
   align-content: center;
   }
 
-h2, h4, span {
+h2, h4, h5, span {
   color: seashell;
   font-family: "helvetica";
   opacity: 0.9;
@@ -18,7 +18,7 @@ nav {
   position: fixed;
   height: 69px;
   width: 100%;
-  margin: 0;
+  margin: auto;
   border-bottom: 1px seashell solid;
   z-index: 1;
   background-color: black;
@@ -37,7 +37,7 @@ nav span {
 .banner {
   height: 700px;
   width: 1200px;
-  margin: 0;
+  margin: 0px auto;
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   position: relative;
@@ -56,6 +56,7 @@ nav span {
 
 .monthlytea {
   width: 1000px;
+  margin: 0px auto;
   align-items: center;
   justify-content: center;
   }
@@ -63,7 +64,6 @@ nav span {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-around;
   }
   .tea {
     text-align: center;
@@ -73,4 +73,39 @@ nav span {
     height: 200px;
     margin-bottom: 10px;
     align-items: center;
+  }
+
+  /*Location Section*/
+
+  .locationsection {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: 0px auto;
+    align-content: center;
+    justify-content: center;
+  }
+  .locationboxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px 40px;
+    align-items: center;
+  }
+  .locations {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+  }
+
+  /*Footer*/
+  footer {
+    height: 200px;
+    width: auto;
+    text-align: center;
+  }
+
+  /*Copyright*/
+  copyright h5 {
+    text-align: left;
+    margin-left: 20px;
   }
