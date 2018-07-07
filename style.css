@@ -4,9 +4,9 @@ body {
   align-content: center;
   }
 
-h2, h4, h5, span {
+h2, h4, h5, span, h3 {
   color: seashell;
-  font-family: "helvetica";
+  font-family: "Helvetica";
   opacity: 0.9;
   text-align: center;
 }
@@ -22,14 +22,21 @@ nav {
   border-bottom: 1px seashell solid;
   z-index: 1;
   background-color: black;
+  align-items: center;
+  justify-content:space-between;
 }
-nav img {
-  margin-left: 10px;
+.logo img {
+  padding-left: 10px;
+  height: 50px;
 }
-nav span {
+.pagelinks {
+  display: flex;
+}
+.pagelinks span {
   text-decoration: underline;
-  display: inline-block;
-  margin-right: 10px;
+  padding-right: 10px;
+  justify-content: space-around;
+  font-size: 22px;
 }
 
 /*Bammer*/
@@ -56,7 +63,8 @@ nav span {
 
 .monthlytea {
   width: 1000px;
-  margin: 0px auto;
+  margin: 25px auto;
+  padding: 25px;
   align-items: center;
   justify-content: center;
   }
@@ -67,6 +75,8 @@ nav span {
   }
   .tea {
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .tea img {
     width: 300px;
@@ -82,25 +92,29 @@ nav span {
     height: 500px;
     width: 1200px;
     margin: 0px auto;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
-  .locationboxes {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 15px 40px;
+    .locationboxes {
+    display: inline-flex;
+    margin: 15px 40px;
     align-items: center;
   }
   .locations {
     background-color: black;
     width: 300px;
     opacity: 1;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   /*Footer*/
   footer {
     height: 200px;
     width: auto;
+    margin: 0px;
     text-align: center;
   }
 
